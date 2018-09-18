@@ -22,14 +22,16 @@ The requirements of this server are:
 
 ## API
   - Upload file from url
-    - POST
+    - `POST`
     - `/api/urlUpload` 
     - Payload - `{"url":"http//...."}`
   - Upload geographic files in POST body
-    - POST
+    - `POST`
     - `/api/convertUpload`
     - Payload - Form Data with files attached in `files`
   - Get file
-    - GET
+    - `GET`
     - `/layer/{id}`
-
+  - Get static files
+    - `GET`
+    - `./*`
